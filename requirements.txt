@@ -1,0 +1,17 @@
+# Traffic Tracker - Production Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML/CV libraries
+ultralytics>=8.0.0          # YOLOv8 object detection
+supervision>=0.16.0         # Computer vision utilities
+opencv-python>=4.8.0        # Video processing
+
+# Web application
+streamlit>=1.28.0           # Web dashboard framework
+
+# Scientific computing
+numpy>=1.24.0,<2.3          # Numerical operations
+
+# Note: PyTorch is installed automatically by ultralytics
+# For GPU support, install PyTorch with CUDA first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
