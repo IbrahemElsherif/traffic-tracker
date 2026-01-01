@@ -64,8 +64,8 @@ weights/
 models/
 
 # Large media files (exceed GitHub 100MB limit)
-*.gif
-docs/demo.gif
+# *.gif
+# docs/demo.gif
 
 # Logs
 *.log
